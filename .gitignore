@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 *.log
 *.lock
@@ -12,10 +13,35 @@ Thumbs.db
 
 # Node.js
 node_modules/
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+>>>>>>> 01f1ced354de7049968bcc3f970a940e20cfd4f6
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # Next.js
 .next/
 out/
@@ -38,3 +64,15 @@ dist/
 *.swp
 *.swo
 *.tmp
+=======
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+>>>>>>> 01f1ced354de7049968bcc3f970a940e20cfd4f6
